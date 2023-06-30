@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 
 @Controller
+@RequestMapping("/employee")
 public class MyController {
     @RequestMapping("/")
     public String showFirstView() {
